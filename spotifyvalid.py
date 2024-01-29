@@ -1,12 +1,11 @@
-import requests as r
-import os
+import requests as r, os
 from fake_useragent import UserAgent
 from colorama import Fore, Style
 
 class Spotify:
     def __init__(self):
         self.api = r.Session()
-        self.ua = UserAgent().random  # Fix: Use `random` as a method
+        self.ua = UserAgent().random 
         self.green = Fore.GREEN
         self.reset = Style.RESET_ALL
         self.red = Fore.RED
