@@ -1,5 +1,8 @@
 # spotify-validator
 Spotify Email Validator for Marketing purpose!
+Requirements:
+- Python
+- Requests, Colorama, Os (pip install xxx)
 
 Very Fast Spotify Email Validator, Example: 
 
